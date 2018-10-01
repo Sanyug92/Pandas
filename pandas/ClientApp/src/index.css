@@ -1,0 +1,62 @@
+/**/
+
+
+
+/*Dropdowns*/
+.btnDP {
+    border: 2px solid grey;
+    background-color: grey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.CenterTxt {
+    text-align:center
+}
+
+ul.ulDp {
+background-color: grey;
+padding: 70px;
+}
+
+#wrapper {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ItemSearch {
+    margin-left: 13px;
+    width:97%;
+}
+
+/*carousel*/
+li.thumb img {
+    height: 100%;
+    width: 100%;
+}
+
+.ant-carousel .slick-slide {
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+    background: #364d79;
+    overflow: hidden;
+}
+
+    .ant-carousel .slick-slide h3 {
+        color: #fff;
+    }
+
+.thumbs {
+    height:65px;
+}
+@media (max-width: 767px) {
+    /* On small screens, the nav menu spans the full width of the screen. Leave a space for it. */
+    body {
+        padding-top: 50px;
+    }
+}
