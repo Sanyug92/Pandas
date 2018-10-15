@@ -1,6 +1,8 @@
 ﻿import { Input } from 'antd';
+import { bindActionCreators } from 'redux';
 import React from 'react';
 import { Menu, Dropdown, Button, Icon, message } from 'antd';
+import { actionCreators } from '../store/SearchOrgs';
 
 const Search = Input.Search;
 function handleButtonClick(e) {
@@ -23,6 +25,13 @@ const menu = (
 
 class BtnDropDowns extends React.Component {
 
+	componentWillMount() {
+		// This method runs when the component is first added to the page
+		//const startDateIndex = parseInt(this.props.match.params.startDateIndex, 10) || 0;
+		this.props.requestState;
+		console.log(this.props.requestState)
+	}
+
 	render() {
 		return (
 			<div class="mx-auto w-50">
@@ -34,7 +43,7 @@ class BtnDropDowns extends React.Component {
 					/></div>
 					<br />
 					<li class="list-inline-item">
-						<Dropdown overlay={menu}>
+						<Dropdown overlay={menu}> 
 							<Button style={{ marginLeft: 8}}>
 								State <Icon type="down" />
 							</Button>

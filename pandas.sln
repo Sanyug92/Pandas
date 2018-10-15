@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2019
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pandas", "pandas\pandas.csproj", "{B079C853-36C7-4A9B-893F-B0E7F9E68E2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{241F09BF-ACFC-4587-B335-BB947C82BB0B}"
+	ProjectSection(SolutionItems) = preProject
+		HTMLPage1.html = HTMLPage1.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B079C853-36C7-4A9B-893F-B0E7F9E68E2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B079C853-36C7-4A9B-893F-B0E7F9E68E2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B079C853-36C7-4A9B-893F-B0E7F9E68E2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B079C853-36C7-4A9B-893F-B0E7F9E68E2D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9FBDC6F4-9F7D-41F7-AC84-E51833B3C5D0}
+	EndGlobalSection
+EndGlobal
